@@ -4,4 +4,4 @@
 </p>
 
 <p><span id="rex"> :</span> {{ fName }}</p>
-<p><button [disabled]="buttonStatus()">Submit</button></p>
+<p><button (click)="clearName()" [disabled]="buttonStatus()">Reset</button></p>

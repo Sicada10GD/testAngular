@@ -14,4 +14,7 @@ export class NameCollectorComponent implements OnInit {
     if (this.fName.trim().length > 0) return false;
     else return true;
   }
+  clearName() {
+    this.fName = '';
+  }
 }
